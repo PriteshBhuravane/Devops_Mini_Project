@@ -35,7 +35,7 @@ export default function Home(props) {
       setNews(json.articles);
     } catch (error) {
       console.error("Error fetching news:", error);
-      // Handle the error appropriately (e.g., show an error message to the user)
+      // Handle the error appropriately (e.g., show an error message to the users)
     } finally {
       setLoading(false);
     }
